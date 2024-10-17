@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Old Fashion Mobile Bar Services and Menu">
+    <title>Old Fashion Mobile Bar Menu</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <img src="mobilebarLogo.jpg" alt="Old Fashion Mobile Bar Logo" class="logo">
+            <h1>Old Fashion Mobile Bar</h1>
+            <p>Specializing in Classic Cocktails and Premium Bar Services</p>
+        </div>
+    </header>
+
+    <!-- Client Information Section -->
+    <section id="customer-info">
+        <h2><i class="fas fa-user"></i> Client Information</h2> <!-- Added Icon -->
+        <div class="client-fields">
+            <div class="field-group">
+                <label for="customer-name">Name:</label>
+                <input type="text" id="customer-name" name="customer-name" value="Enter First Name" class="editable-field"/>
+            </div>
+            <div class="field-group">
+                <label for="customer-surname">Surname:</label>
+                <input type="text" id="customer-surname" name="customer-surname" value="Enter Last Name" class="editable-field"/>
+            </div>
+            <div class="field-group">
+                <label for="customer-phone">Phone Number:</label>
+                <input type="text" id="customer-phone" name="customer-phone" value="Enter Phone Number" class="editable-field"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2><i class="fas fa-concierge-bell"></i> Our Services</h2> <!-- Added Icon -->
+        <ul class="custom-bullets">
+            <li>Selection of 2-3 cocktails or a combination of long drinks and shots from our menu.</li>
+            <li>Plastic cups, straws, napkins, ice, and garnishes.</li>
+            <li>Black collapsible bar.</li>
+            <li>Required bartenders and barbacks.</li>
+            <li>Package options available with choice of cocktails and different pricing based on glassware.</li>
+        </ul>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages">
+        <h2><i class="fas fa-gift"></i> Our Packages</h2> <!-- Added Icon -->
+        <div class="package">
+            <h3>Package 1</h3>
+            <p>Includes 2-3 cocktails of your choice, plastic cups, straws, and garnishes.</p>
+            <label for="package1-price">Price:</label>
+            <input type="text" id="package1-price" name="package1-price" value="100€" class="editable-field"/>
+        </div>
+        <div class="package">
+            <h3>Package 2</h3>
+            <p>Includes everything in Package 1 plus additional premium drinks.</p>
+            <label for="package2-price">Price:</label>
+            <input type="text" id="package2-price" name="package2-price" value="150€" class="editable-field"/>
+        </div>
+    </section>
+
+    <!-- Cocktail Menu Section -->
+    <section id="menu">
+        <h2><i class="fas fa-cocktail"></i> Cocktail Menu</h2> <!-- Added Icon -->
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="cocktail1.png" alt="Red Diamond Cocktail">
+                <h3>RED DIAMOND</h3>
+                <p>Gin, blackberry syrup, lime juice, pink grapefruit soda.</p>
+            </div>
+            <div class="menu-item">
+                <img src="cocktail2.png" alt="Gentleman Cocktail">
+                <h3>GENTLEMAN</h3>
+                <p>Gin, lime juice, pineapple syrup, sugar syrup.</p>
+            </div>
+            <div class="menu-item">
+                <img src="cocktail3.png" alt="Paloma Cocktail">
+                <h3>PALOMA</h3>
+                <p>Tequila, lime juice, pink grapefruit soda.</p>
+            </div>
+            <div class="menu-item">
+                <img src="cocktail4.png" alt="Hugo Spritz Cocktail">
+                <h3>HUGO SPRITZ</h3>
+                <p>Prosecco, elderflower, soda.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shots Menu Section -->
+    <section id="shots">
+        <h2><i class="fas fa-glass-cheers"></i> Shots Menu</h2> <!-- Added Icon -->
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="shot1.png" alt="Tequila Shot">
+                <h3>TEQUILA</h3>
+                <p>Silver or Gold Tequila served in shot glasses.</p>
+            </div>
+            <div class="menu-item">
+                <img src="shot2.png" alt="Vodka Shot">
+                <h3>VODKA NORTH</h3>
+                <p>Classic vodka shot with a crisp and smooth taste.</p>
+            </div>
+            <div class="menu-item">
+                <img src="shot3.png" alt="Daiquiri Shot">
+                <h3>DAIQUIRI</h3>
+                <p>Lime juice, rum, sugar syrup.</p>
+            </div>
+            <div class="menu-item">
+                <img src="shot4.png" alt="Lemon Drop Shot">
+                <h3>LEMON DROP</h3>
+                <p>Lemon juice, rum, sugar syrup served chilled.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Event Information & Policies Section -->
+<section id="event-info">
+    <h2><i class="fas fa-info-circle"></i> Event Information & Policies</h2> <!-- Added Icon -->
+    <div class="event-details">
+        <ul>
+            <li>Setup starts 2 hours before the event, and the bar will be ready for serving by the time the event starts.</li>
+            <li>The maximum service time is 6 hours, and the latest end time is 2:00 a.m.</li>
+            <li>If there is a specific cocktail that you prefer and it is not included, please discuss it with us, and we will do our best to accommodate your request!</li>
+            <li>In all cases, we offer unlimited consumption. However, in case of excessive consumption of a specific cocktail, we will continue with our other options.</li>
+            <li>The Old Fashion Mobile Bar will have additional alcoholic beverages worth 100 euros as backup, which will be charged accordingly after the event in case of consumption (e.g., additional shots).</li>
+            <li>A deposit of 200 euros is required to confirm the booking/date.</li>
+            <li>The payment should be settled within one week after the event.</li>
+            <li>If you have any questions regarding the offer or any other inquiries regarding our services on the day of the event, do not hesitate to contact us to arrange a meeting or a phone call.</li>
+        </ul>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us for more information: oldfashion_mobile.bar on Instagram | +35796851737</p>
+    </footer>
+</body>
+</html>
